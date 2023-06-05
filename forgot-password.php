@@ -24,7 +24,7 @@ $chngpwd1->execute();
 $msg="Your Password succesfully changed";
 }
 else {
-$error="Email id or Mobile no is invalid";	
+$error="Email id or Mobile no is valid";	
 }
 }
 
