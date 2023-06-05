@@ -24,7 +24,7 @@ $chngpwd1->execute();
 $msg="Your Password succesfully changed";
 }
 else {
-$error="Email id or Mobile no is valid";	
+$error="Email id or Mobile no is invalid";	
 }
 }
 
@@ -32,7 +32,7 @@ $error="Email id or Mobile no is valid";
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>TMS | Tourism Management System</title>
+<title>HOMESTAY Management System</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Tourism Management System In PHP" />
